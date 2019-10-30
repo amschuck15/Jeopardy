@@ -6,6 +6,7 @@ Flask==1.1.1
 Flask-SQLAlchemy==2.4.1
 Flask-WhooshAlchemy==0.56
 flask-whooshalchemy3==0.1.2
+gunicorn=19.9.0
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10.3
