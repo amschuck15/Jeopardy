@@ -1,22 +1,18 @@
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-
-        scale=1">
-    <link rel="stylesheet" href="/static/index.css">
-</head>
-
-<body>
-    <h1><center>Search For Clues</center></h1>
-    <form class="example" method="post" style="margin:auto;max-width:600px">
-        <table style="margin-left: auto; margin-right: auto; width: 400px">
+<h1 style="text-align: center;">Search For Jeopardy Clues</h1>
+<p style="text-align: center;">Use the search form below to search for Jeopardy Clues by category, dollar value, and a time range of when the clue was aired on T.V. Feel free to leave any/all fields blank when searching!</p>
+<p style="text-align: center;">* Keep in mind that the category search bar is case-sensitive and must be spelled exactly as the category is spelled *</p>
+<form method="post">
+    <table style="margin-left: auto; margin-right: auto;">
+        <tbody>
             <tr>
-                <td>&nbsp;
+                <td>Category</td>
+                <td>
                     <input name="category" type="text" placeholder="Search by Category" />
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">&nbsp;
+                <td>Dollar Value</td>
+                <td>
                     <select name="value">
                         <option hidden="" value="">Choose Value</option>
                         <option value="100">100</option>
@@ -31,12 +27,14 @@
                 </td>
             </tr>
             <tr>
-                <td>&nbsp;Start Date:&nbsp;
+                <td>Beginning of Range</td>
+                <td>
                     <input name="max_date" type="date" data-date-inline-picker="false" data-date-open-on-focus="true" />
                 </td>
             </tr>
             <tr>
-                <td>&nbsp; End Date:&nbsp;
+                <td>End of Range</td>
+                <td>
                     <input name="min_date" type="date" data-date-inline-picker="false" data-date-open-on-focus="true" />
                 </td>
             </tr>
@@ -45,8 +43,7 @@
                     <button type="submit"> <em>Search</em> </button>
                 </td>
             </tr>
-        </table>
-    </form>
-</body>
-
-</html>
+        </tbody>
+    </table>
+    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://media.graytvinc.com/images/810*462/Jeopardy1.jpg" alt="" width="408" height="233" /></p>
+</form>
